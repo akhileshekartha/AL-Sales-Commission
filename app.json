@@ -1,0 +1,22 @@
+{
+  "id": "859dad4d-68e2-4008-87e9-474cc12ad4a4",
+  "name":  "Sales Commission",
+  "publisher": "Nav Consultant",
+  "brief": "",
+  "description": "Sales Commission",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://navconsultant.com/",
+  "logo": "Image.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "10.0.0.0",
+  "application": "10.0.0.0",
+  "idRange": {
+    "from": 50000,
+    "to": 50100
+  }
+}
