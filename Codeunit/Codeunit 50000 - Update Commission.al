@@ -20,7 +20,7 @@ codeunit 50000 "Update Commission"
         lvRecSalesSetup.GET;
         if not lvRecSalesSetup."Enable Salesperson Commission" then
           exit;
-
+        // Commission Ledger entry creation
         lvRecSalesCommission.RESET;
         lvRecSalesCommission.SETRANGE("Salesperson Code",SalesHeader."Salesperson Code");
         lvRecSalesCommission.SETFILTER("From Date",'<=%1',SalesHeader."Posting Date");
